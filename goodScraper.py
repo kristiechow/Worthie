@@ -5,18 +5,15 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 url = 'https://directory.goodonyou.eco/brand/bario-neal'
-# opening up connection and grabbing page
-#page = requests.get(url)
 
 driver = webdriver.Firefox()
 driver.get(url)
 
 # parsing through the page
-#soup = BeautifulSoup(page.text, 'html.parser')
 html = driver.page_source
-print(html)
-soup = BeautifulSoup(html)
-#print(soup.prettify())
+soup = BeautifulSoup(html, 'html.parser')
+
+print(soup.prettify())
 
 driver.close()
 # # getting table elements
