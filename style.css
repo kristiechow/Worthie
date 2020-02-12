@@ -2,6 +2,7 @@ body {
   background-color: #F7F7F7;
   width: 335px;
   margin: 0px;
+  border-radius: 25px;
 }
 
 .title {
@@ -12,8 +13,8 @@ body {
 }
 
 .subtitle {
-  margin: 20px 10px 15px 15px;
-  font-size: 25px;
+  margin: 15px 10px 15px 15px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.07em;
   display: inline;
@@ -21,8 +22,8 @@ body {
 }
 
 .num {
-  margin: 20px 3px 15px 5px;
-  font-size: 35px;
+  margin: 12px 3px 15px 5px;
+  font-size: 30px;
   display: inline;
 }
 
@@ -30,6 +31,7 @@ body {
   width: 100%;
   border-bottom: 1px solid #E2E2E2;
   background-color: white;
+  padding: 0 0 0 15px;
 }
 
 .logoimg {
@@ -39,7 +41,7 @@ body {
 
 .es {
   width: 95%;
-  height: 70px;
+  height: 50px;
   margin: 10px 8px 10px 8px;
   background-color: white;
   border-color: #E2E2E2;
@@ -49,16 +51,66 @@ body {
 }
 
 .starimg {
-  padding: 3px 5px 0px 0px;
+  padding: 1px 5px 0px 0px;
   width: 28px;
   vertical-align: bottom;
 }
 
+.affirm{
+  margin: 10px 25px 15px 0px;
+  font-size: 30px;
+  display: inline;
+}
+
 .orangesubtitle {
-  margin: 20px 10px 15px 15px;
+  margin: 15px 10px 15px 15px;
   font-size: 20px;
   color: #F15025;
   letter-spacing: 0.07em;
   display: inline;
   float: left;
+}
+
+.buttons {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+#button1 {
+  background-color: #FF6E30;
+  border: none;
+  color: #FFF;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 30px;
+  border-radius: 25px;
+}
+
+#button2 {
+  background-color: #30C5FF;
+  border: none;
+  color: #FFF;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 30px;
+  border-radius: 25px;
+}
+
+#button3 {
+  background-color: #5100FE;
+  border: none;
+  color: #FFF;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 30px;
+  border-radius: 25px;
 }
